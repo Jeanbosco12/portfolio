@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/boscofolio/static/css/main.1e05000b.css",
+    "main.js": "/boscofolio/static/js/main.42c4b2d4.js",
+    "static/js/453.30ae410f.chunk.js": "/boscofolio/static/js/453.30ae410f.chunk.js",
+    "index.html": "/boscofolio/index.html",
+    "main.1e05000b.css.map": "/boscofolio/static/css/main.1e05000b.css.map",
+    "main.42c4b2d4.js.map": "/boscofolio/static/js/main.42c4b2d4.js.map",
+    "453.30ae410f.chunk.js.map": "/boscofolio/static/js/453.30ae410f.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1e05000b.css",
+    "static/js/main.42c4b2d4.js"
+  ]
+}
