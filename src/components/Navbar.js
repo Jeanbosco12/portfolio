@@ -24,7 +24,7 @@ const Navbar = () => {
     <nav className={`navbar ${isScrolled ? 'scrolled' : ''}`}>
       <div className="navbar-container">
         <a href="#hero" className="navbar-logo">
-          Bosco
+          <img className='tecjweb' />
         </a>
 
         {/* Menu hamburger pour mobile */}

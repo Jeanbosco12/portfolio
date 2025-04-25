@@ -1,12 +1,14 @@
 import React from 'react';
 import './Footer.css';
+import { FaGithub, FaLinkedin, FaTwitter } from 'react-icons/fa';
 
 const Footer = () => {
+  const year = new Date().getFullYear();
   return (
     <footer className="footer">
       <div className="footer-content">
         <div className="footer-section">
-          <h3>Bosco</h3>
+          <h3>REMIFAHATSE Jean Bosco</h3>
           <p>Développeur Web Full Stack passionné par la création d'expériences web modernes et performantes.</p>
         </div>
         
@@ -24,30 +26,30 @@ const Footer = () => {
         <div className="footer-section">
           <h3>Contact</h3>
           <ul>
-            <li>Email: votre.email@example.com</li>
-            <li>LinkedIn: linkedin.com/in/votre-profil</li>
-            <li>GitHub: github.com/votre-profil</li>
+            <li>Email: remifahatsebosco@gmail.com</li>
+            <li><a href='https://linkedin.com/in/remifahatsejeanbosco' target='_blank' rel="noopener noreferrer"> <FaLinkedin /> </a></li>
+            <li><a href='https://github.com/JeanBosco12Jr' target='_blank' rel="noopener noreferrer"> <FaGithub /> </a></li>
           </ul>
         </div>
 
         <div className="footer-section">
           <h3>Suivez-moi</h3>
           <div className="social-links">
-            <a href="#" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
-              <i className="fab fa-linkedin"></i>
+            <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+              <FaLinkedin />
             </a>
-            <a href="#" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
-              <i className="fab fa-github"></i>
+            <a href="https://github.com" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+              <FaGithub />
             </a>
-            <a href="#" target="_blank" rel="noopener noreferrer" aria-label="Twitter">
-              <i className="fab fa-twitter"></i>
+            <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" aria-label="Twitter">
+              <FaTwitter />
             </a>
           </div>
         </div>
       </div>
       
       <div className="footer-bottom">
-        <p>&copy; 2024 Bosco. Tous droits réservés.</p>
+        <p>&copy; {year} Bosco. Tous droits réservés.</p>
       </div>
     </footer>
   );

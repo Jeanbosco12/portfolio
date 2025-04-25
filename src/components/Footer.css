@@ -15,9 +15,8 @@
 }
 
 .footer-section h3 {
-  color: var(--primary-color);
-  margin-bottom: 1.5rem;
-  font-size: 1.2rem;
+  color: #9ca3af;
+  line-height: 1.6;
 }
 
 .footer-section p {
@@ -32,6 +31,7 @@
 
 .footer-section ul li {
   margin-bottom: 0.8rem;
+  color: #9ca3af;
 }
 
 .footer-section ul li a {
@@ -45,7 +45,8 @@
 }
 
 .social-links {
-  display: flex;
+  text-align: center;
+  align-content: center;
   gap: 1.5rem;
 }
 
