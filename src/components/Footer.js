@@ -26,7 +26,7 @@ const Footer = () => {
         <div className="footer-section">
           <h3>Contact</h3>
           <ul>
-            <li>Email: remifahatsebosco@gmail.com</li>
+            <li>remifahatsebosco@gmail.com</li>
             <li><a href='https://linkedin.com/in/remifahatsejeanbosco' target='_blank' rel="noopener noreferrer"> <FaLinkedin /> </a></li>
             <li><a href='https://github.com/JeanBosco12Jr' target='_blank' rel="noopener noreferrer"> <FaGithub /> </a></li>
           </ul>
