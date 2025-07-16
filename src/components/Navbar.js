@@ -24,10 +24,9 @@ const Navbar = () => {
     <nav className={`navbar ${isScrolled ? 'scrolled' : ''}`}>
       <div className="navbar-container">
         <a href="#hero" className="navbar-logo">
-          <img className='tecjweb' />
+          Bosco
         </a>
 
-        {/* Menu hamburger pour mobile */}
         <button 
           className={`hamburger ${isMenuOpen ? 'active' : ''}`}
           onClick={() => setIsMenuOpen(!isMenuOpen)}

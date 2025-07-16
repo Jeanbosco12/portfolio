@@ -7,6 +7,7 @@ import {
   FaLinkedinIn,
   FaJava,
   FaAngular,
+  FaFacebook,
 } from 'react-icons/fa';
 import {
   SiMongodb, SiTailwindcss, SiTypescript, SiNextdotjs, SiNestjs,
@@ -30,6 +31,7 @@ function App() {
   useEffect(() => {
     setTimeout(() => {
       setIsLoading(false);
+      localStorage.clear();
     }, 5000);
   }, []);
 
@@ -139,7 +141,7 @@ function App() {
               whileHover={{ scale: 1.05 }}
               transition={{ type: "spring", stiffness: 300 }}
             >
-              <h3>3+</h3>
+              <h3>10+</h3>
               <p>Années d'expérience</p>
             </motion.div>
             <motion.div
@@ -147,7 +149,7 @@ function App() {
               whileHover={{ scale: 1.05 }}
               transition={{ type: "spring", stiffness: 300 }}
             >
-              <h3>20+</h3>
+              <h3>75+</h3>
               <p>Projets réalisés</p>
             </motion.div>
             <motion.div
@@ -155,7 +157,7 @@ function App() {
               whileHover={{ scale: 1.05 }}
               transition={{ type: "spring", stiffness: 300 }}
             >
-              <h3>5+</h3>
+              <h3>14+</h3>
               <p>Technologies maîtrisées</p>
             </motion.div>
           </div>
@@ -387,8 +389,8 @@ function App() {
             transition={{ duration: 0.8 }}
           >
             <div className="contact-item">
-              <FaMailBulk />
-              <p>remifahatsebosco@gmail.com</p>
+              <h3>Facebook</h3>
+              <a href="https://www.facebook.com/ReJeanBosco" target="_blank" rel="noopener noreferrer"><FaFacebook /></a>
             </div>
             <div className="contact-item">
               <h3>LinkedIn</h3>
